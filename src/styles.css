@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/**
+>  CUSTOM PROPETY
+**/
+
+:root {
+  --dark-color-primary: #020c1b;
+  --color-primary: #0a192f;
+  --light-color-primary: #112240;
+  --lightest-color-primary: #233554;
+  --dark-color-secondary: #495670;
+  --color-secondary: #8892b0;
+  --light-color-secondary: #a8b2d1;
+  --lightest-color-slate: #ccd6f6;
+  --white: #e6f1ff;
+  --cyan: #00ffff;
+  --color-accent-tint: rgba(100, 255, 218, 0.2);
+  --color-accent: rgb(69, 245, 204);
+  --dark-color-green: rgb(39, 184, 150);
+  --blue: #1398d6;
+
+  --ff-heading: "Rowdies", -apple-system, system-ui, sans-serif;
+  --ff-body: "Rubick", "Roboto", monospace;
+  --fs--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem);
+  --fs--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem);
+  --fs-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+  --fs-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+  --fs-2: clamp(1.62rem, calc(1.5rem + 0.58vw), 1.95rem);
+  --fs-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+  --fs-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+  --fs-5: clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem);
+  --fw-light: 400;
+  --fw-medium: 500;
+  --fw-bold: 800;
+
+  --border-radius: 4px;
+  --border-radius-medium: 7px;
+  --border-radius-lg: 12px;
+
+  --card-min-width: 290px;
+
+  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --left-after-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/**
+>  RESET
+**/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
