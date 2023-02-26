@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  gap: 2rem;
+  height: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.wrapper > .aside {
+  flex: 1 1 40%;
+}
+
+.wrapper > main {
+  flex: 1 1 60%;
+}

@@ -6,6 +6,7 @@
 		"moduleResolution": "nodenext",
 		"jsx": "react-jsx",
 		"allowImportingTsExtensions": true,
-		"noEmit": true
+		"noEmit": true,
+		"baseUrl": "src",
 	}
 }
