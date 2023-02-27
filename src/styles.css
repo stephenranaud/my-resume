@@ -95,11 +95,18 @@ h3 {
 
 h1 {
   margin-bottom: 1.5rem;
+  font-size: var(--fs-2);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: var(--fs-1);
 }
 
 h3 {
   margin-bottom: 1rem;
-  font-size: var(--fs-1);
+  font-size: calc(var(--fs-1) * 0.3vh);
+  color: var(--dark-color-accent);
 }
 
 p {

@@ -1,0 +1,8 @@
+{
+  "modules": false,
+  "plugins": {
+    "css-mqpacker": {
+      "sort": true
+    }
+  }
+}
