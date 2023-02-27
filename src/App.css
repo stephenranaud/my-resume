@@ -7,7 +7,7 @@
 
 .wrapper > .aside {
   flex: 2;
-  /* display: none; */
+  display: none;
 }
 
 .wrapper > main {

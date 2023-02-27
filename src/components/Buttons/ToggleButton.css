@@ -12,7 +12,7 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  background: var(--white);
+  background-color: var(--white);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
   position: relative;
   z-index: 1;
@@ -32,7 +32,7 @@
   align-items: center;
   background-color: var(--lightest-color-slate);
   color: hsl(0, 0%, 24%);
-  transform: translate(15%);
+  transform: translate(16%);
   text-transform: uppercase;
   font-weight: var(--fw-bold);
   transition: all var(--easing) 200ms;
@@ -58,7 +58,7 @@
 
 .toggle-button.active::after {
   width: 100%;
-  transform: translate(-18%);
+  transform: translate(-16%);
 }
 
 .toggle-button.active::before {
