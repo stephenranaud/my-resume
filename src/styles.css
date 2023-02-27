@@ -156,6 +156,32 @@ img {
   width: 24px;
 }
 
+.icon-tools {
+  width: 55px;
+}
+
+.row {
+  margin: 1rem;
+}
+
+.col {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1 1 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .col {
+    flex: 1 1 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 /**
 >  Mediaqueries
 **/
