@@ -1,17 +1,16 @@
 .wrapper {
-  display: flex;
   height: 100%;
-  max-width: 1080px;
+  max-width: 1100px;
   margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .wrapper > .aside {
-  flex: 2;
-  display: none;
-}
-
-.wrapper > main {
-  flex: 6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .row-button {
@@ -114,5 +113,23 @@
 
   .tools__row.divider-2:nth-child(1)::after {
     left: calc(100% / 2);
+  }
+
+  .wrapper {
+    display: flex;
+    overflow: visible;
+  }
+
+  .wrapper > .aside {
+    position: relative;
+    transform: translate(0);
+  }
+
+  .wrapper > .aside {
+    flex: 2;
+  }
+
+  .wrapper > main {
+    flex: 6;
   }
 }

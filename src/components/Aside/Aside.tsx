@@ -6,10 +6,22 @@ import githubImageIcon from "/src/assets/icons/github.png";
 import devImageIcon from "/src/assets/icons/dev.png";
 import smartphoneImageIcon from "/src/assets/icons/smartphone.png";
 import homeImageIcon from "/src/assets/icons/home.png";
+import { useState } from "react";
 
 export default function Aside() {
+  const [active, setActive] = useState(false);
+
+  const handleClick = () => setActive(!active);
+
   return (
-    <aside className="aside-main" aria-label="Main aside">
+    <aside
+      className={`aside-main ${active ? "active" : ""}`}
+      aria-label="Main aside"
+    >
+      <button className="btn-show-infos" type="button" onClick={handleClick}>
+        <div>{!active ? "Voir" : "Masquer"}</div>
+      </button>
+
       <header className="header-main" aria-label="Header main">
         <h1>Stephen BOND</h1>
         <p>AGENT SECRET POUR LA MAISON BLANCHE</p>
