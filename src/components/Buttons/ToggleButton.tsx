@@ -49,6 +49,8 @@ export default function ToggleButton() {
   useEffect(() => {
     if (theme === "light") {
       changeTheme();
+    } else {
+      changeTheme();
     }
   }, [theme]);
 
@@ -56,6 +58,7 @@ export default function ToggleButton() {
     setTheme((theme) => {
       const t = theme === "dark" ? "light" : "dark";
       localStorage.setItem("theme", t);
+
       setActive(!active);
       return t;
     });
