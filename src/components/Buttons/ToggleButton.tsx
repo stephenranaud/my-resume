@@ -1,29 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./ToggleButton.css";
 
 type Theme = "light" | "dark";
 
 export default function ToggleButton() {
   type TypeColorsTheme = keyof typeof colors[Theme];
-
-  const [active, setActive] = useState(true);
-  const [theme, setTheme] = useState<Theme>(() => {
-    const themeNames = ["light", "dark"] as const;
-    let theme: Theme | undefined = "light";
-
-    if ((theme = themeNames.find((t) => localStorage.getItem("theme") === t))) {
-      if (theme) {
-        return theme;
-      }
-    }
-
-    if (window.matchMedia("prefers-color-scheme: dark").matches) {
-      setActive(!active);
-      return "dark";
-    }
-
-    return "light";
-  });
 
   const colors = {
     dark: {
@@ -35,12 +16,52 @@ export default function ToggleButton() {
     light: {
       darkColorPrimary: "rgba(100, 255, 218, 0.2)",
       colorPrimary: "#233554",
-      lightColorPrimary: "transparent",
+      lightColorPrimary: "#112240",
       lightestColorPrimary: "transparent",
     },
   };
 
-  const handleClick = () => {
+  const [active, setActive] = useState(() => {
+    const themeNames = ["light", "dark"] as const;
+    let theme: Theme | undefined = "dark";
+
+    if ((theme = themeNames.find((t) => localStorage.getItem("theme") === t))) {
+      if (theme == "dark") {
+        return false;
+      }
+      return true;
+    }
+  });
+
+  const [theme, setTheme] = useState<Theme>(() => {
+    const themeNames = ["light", "dark"] as const;
+    let theme: Theme | undefined = "dark";
+
+    if ((theme = themeNames.find((t) => localStorage.getItem("theme") === t))) {
+      if (theme) {
+        return theme;
+      }
+    }
+
+    return "dark";
+  });
+
+  useEffect(() => {
+    if (theme === "light") {
+      changeTheme();
+    }
+  }, [theme]);
+
+  const toggle = () => {
+    setTheme((theme) => {
+      const t = theme === "dark" ? "light" : "dark";
+      localStorage.setItem("theme", t);
+      setActive(!active);
+      return t;
+    });
+  };
+
+  const changeTheme = () => {
     let root = document.documentElement;
     let key: TypeColorsTheme;
 
@@ -59,21 +80,13 @@ export default function ToggleButton() {
         root.style.setProperty(nameCssCustomProperty, colors[theme][key]);
       }
     }
-
-    setTheme((theme) => {
-      const t = theme === "dark" ? "light" : "dark";
-      localStorage.setItem("theme", t);
-      return t;
-    });
-
-    setActive(!active);
   };
 
   return (
     <div
       className={`toggle-button ${active ? "active" : ""}`}
       role="button"
-      onClick={handleClick}
+      onClick={toggle}
     >
       <div className="toggle-circle" aria-hidden="true"></div>
     </div>
