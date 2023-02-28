@@ -13,6 +13,10 @@
   left: 0;
 }
 
+.wrapper > main {
+  position: relative;
+}
+
 .row-button {
   display: flex;
   justify-content: flex-end;
@@ -41,6 +45,10 @@
   background-color: var(--light-color-primary);
   padding: 1rem;
   border-radius: var(--border-radius-medium);
+}
+
+.light .certifications {
+  backdrop-filter: blur(10px) saturate(120%);
 }
 
 .certifications__grid,

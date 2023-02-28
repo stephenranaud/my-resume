@@ -16,7 +16,7 @@ import googleCalendarIcon from "/src/images/google-calendar_icon.png";
 
 export default function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper light">
       <div className="aside">
         <Aside />
       </div>
