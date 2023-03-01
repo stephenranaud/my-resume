@@ -82,13 +82,21 @@ export default function App() {
             <div className="certifications__certification">
               <h3>JavaScript Algorithms and Data Structures | FC</h3>
 
-              <p>JavaScript Algorithms and Data Structures | FC</p>
+              <p>La résolution de problèmes 
+ est probablement l’une des 
+ compétences les plus 
+ importantes, cette certification 
+ nous apprend cela avec JS.</p>
             </div>
 
             <div className="certifications__certification">
-              <h3>JavaScript Algorithms and Data Structures | FC</h3>
+              <h3>BackEnd Development 
+and APIs | FCC</h3>
 
-              <p>JavaScript Algorithms and Data Structures | FC</p>
+              <p>Pour créer des applications 
+back-end avec Node.js. Créer également 
+des applications Web avec le framework 
+Express, des microservices.</p>
             </div>
 
             <div className="certifications__certification">
