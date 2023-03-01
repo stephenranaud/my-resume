@@ -31,8 +31,8 @@ export default function Aside(): JSX.Element {
       </header>
 
       <p className="container">
-        Je suis un jeune agent secret motivé, passionné par la technologie,
-        souhaitant évoluer en tant que agent secret{" "}
+        Je suis un jeune développeur motivé, passionné par la technologie,
+        souhaitant évoluer en tant que développeur{" "}
         <span className="txt-accent-bold">FULL-STACK</span>.
       </p>
 
