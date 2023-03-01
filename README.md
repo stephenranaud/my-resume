@@ -1,6 +1,6 @@
 # A simple ReactJS application of my resume
 
-![thumbnail](./thumb.jpg)
+![thumbnail](./thumb.png)
 
 ## Use
 
