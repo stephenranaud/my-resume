@@ -1,0 +1,32 @@
+.cv-pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.cv-pdf__buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.cv-pdf__buttons > * {
+  flex: 1 1 100%;
+}
+
+.cv-pdf__buttons a {
+  text-decoration: none;
+}
+
+.cv-pdf__buttons button {
+  color: var(--color-accent);
+  font-weight: var(--fw-bold);
+}
+
+@media screen and (max-width: 425px) {
+  .cv-pdf__img img {
+    width: 172px;
+  }
+}

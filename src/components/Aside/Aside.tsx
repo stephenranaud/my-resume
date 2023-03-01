@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 import "./Aside.css";
+
+import CVPDF from "../CVPDF.tsx";
 
 import linkedInImageIcon from "/src/assets/icons/linkedin.png";
 import twitterImageIcon from "/src/assets/icons/twitter.png";
@@ -6,9 +10,8 @@ import githubImageIcon from "/src/assets/icons/github.png";
 import devImageIcon from "/src/assets/icons/dev.png";
 import smartphoneImageIcon from "/src/assets/icons/smartphone.png";
 import homeImageIcon from "/src/assets/icons/home.png";
-import { useState } from "react";
 
-export default function Aside() {
+export default function Aside(): JSX.Element {
   const [active, setActive] = useState(false);
 
   const handleClick = () => setActive(!active);
@@ -42,7 +45,10 @@ export default function Aside() {
             de présenter des projets concrets, passer des certifications
             PremiumAgentCamp, faire des interviews et le processus d'un Agent
             secret mais aussi de me promouvoir.{" "}
-            <a href=" https://my-fcc-summary-sairussdev.netlify.app/">
+            <a
+              href="https://my-fcc-summary-sairussdev.netlify.app/"
+              target="_blank"
+            >
               https://my-fcc-summary-sairussdev.netlify.app/
             </a>
           </p>
@@ -179,12 +185,13 @@ export default function Aside() {
                     aria-hidden
                   />
                 </div>
-                <p className="contact__link">
-                  <a href="" target="_blank">
-                    World Wide Web
-                  </a>
-                </p>
+                <p className="contact__link">World Wide Web</p>
               </div>
+            </li>
+
+            <li>
+              <h3 className="txt-accent">Version PDF</h3>
+              {CVPDF()}
             </li>
           </ul>
         </li>
