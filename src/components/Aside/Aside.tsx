@@ -26,8 +26,8 @@ export default function Aside(): JSX.Element {
       </button>
 
       <header className="header-main" aria-label="Header main">
-        <h1>Stephen BOND</h1>
-        <p>AGENT SECRET POUR LA MAISON BLANCHE</p>
+        <h1>STEPHEN OGOULA SAIZONOU</h1>
+        <p>DEVELOPPEUR FULL-STACK</p>
       </header>
 
       <p className="container">
@@ -100,8 +100,11 @@ export default function Aside(): JSX.Element {
                   />
                 </div>
                 <p className="contact__link">
-                  <a href="" target="_blank">
-                    linkedIn:agent-dev
+                  <a
+                    href="https://www.linkedin.com/in/stephen-ranaud"
+                    target="_blank"
+                  >
+                    linkedIn:@stephen-ranaud
                   </a>
                 </p>
               </div>
@@ -118,8 +121,8 @@ export default function Aside(): JSX.Element {
                   />
                 </div>
                 <p className="contact__link">
-                  <a href="" target="_blank">
-                    @AgentDev001
+                  <a href="https://twitter.com/RanaudStephen" target="_blank">
+                    @RanaudStephen
                   </a>
                 </p>
               </div>
@@ -136,8 +139,8 @@ export default function Aside(): JSX.Element {
                   />
                 </div>
                 <p className="contact__link">
-                  <a href="" target="_blank">
-                    github.com/agentde
+                  <a href="https://github.com/stephenranaud/" target="_blank">
+                    @StephenRanaud
                   </a>
                 </p>
               </div>
@@ -155,7 +158,7 @@ export default function Aside(): JSX.Element {
                 </div>
                 <p className="contact__link">
                   <a href="" target="_blank">
-                    dev.to/agentdev
+                    dev.to/sairussdev
                   </a>
                 </p>
               </div>
@@ -171,7 +174,7 @@ export default function Aside(): JSX.Element {
                     aria-hidden
                   />
                 </div>
-                <p className="contact__link">+1 305 667 7777</p>
+                <p className="contact__link">+221 76 418 68 48</p>
               </div>
             </li>
 
@@ -185,7 +188,9 @@ export default function Aside(): JSX.Element {
                     aria-hidden
                   />
                 </div>
-                <p className="contact__link">World Wide Web</p>
+                <p className="contact__link">
+                  Sénégal - Ouakam, monument la renaissance
+                </p>
               </div>
             </li>
 

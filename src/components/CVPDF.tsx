@@ -6,7 +6,7 @@ import pdfUrl from "../images/CV-SAIZONOU-OGOULA-Stephen.pdf";
 
 export default function CVPDF(): JSX.Element {
   const openNewWindow = () => {
-    window.open(pdfUrlDemo, "_blank");
+    window.open(pdfUrl, "_blank");
   };
 
   return (
@@ -17,7 +17,7 @@ export default function CVPDF(): JSX.Element {
 
       <div className="cv-pdf__buttons">
         <button type="button">
-          <a href={pdfUrlDemo} download="CV-demo">
+          <a href={pdfUrl} download="CV-demo">
             Télécharger
           </a>
         </button>

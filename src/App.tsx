@@ -29,29 +29,40 @@ export default function App() {
           <div className="formations">
             <h2>Formation</h2>
             <div className="formation">
-              <h3>Autodidacte</h3>
-              <p>2017 - 2022 | Avec internet et de la motivation</p>
+              <h3> ISM DAKAR</h3>
+              <p>2018 - 2021 LICENCE EN GÉNIE LOGICIEL & RÉSEAUX SYSTEMES</p>
             </div>
 
             <div className="formation">
-              <h3> Bac (presque obtenu)</h3>
-              <p>20XX - 20XX | L’essentiel est de participer</p>
+              <h3>LTNOB | Gabon</h3>
+              <p>
+                {" "}
+                2016 - 2017 | Bac sciences et technologies industrielles en
+                génie électrotechnique.
+              </p>
             </div>
           </div>
 
           <div className="experiences">
             <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
             <div className="experience">
-              <h3>Reproduire l’affaire Martel mais en corée du nord</h3>
-              <p>2022 | Fullstack agent</p>
+              <h3>TANSAIR</h3>
+              <p>2021 | Une collaboration de 2 mois</p>
+              <p>
+                de 2 mois SOGAME EQUIP (GABON) 2016 | Stage manutentionnaire/
+                gestion des stocks 3 mois LTNOB | Gabon 2016 - 2017 | Bac
+                sciences et technologies industrielles en génie
+                électrotechnique. J'ai été sollicité par la directrice
+                administrative Mme Cécile Gery LELOUP à l'occasion de la refonte
+                du site web de Transair. Bien que ce ne fut pas un stage, cela
+                m’a aidé à mieux appréhender les enjeux du monde professionnel.
+              </p>
             </div>
 
             <div className="experience">
-              <h3>
-                Chargé de faire infiltré la COVID en chine par une organisation
-                secrète
-              </h3>
-              <p>2019 | C’était dur mais j’ai réussis</p>
+              <h3>SOGAME EQUIP (GABON)</h3>
+              <p>2016 | Stage manutentionnaire/ gestion des stocks 3 mois </p>
             </div>
           </div>
         </div>
@@ -60,38 +71,33 @@ export default function App() {
           <h2>CERTIFICATIONS RÉCENTES</h2>
           <div className="certifications__grid">
             <div className="certifications__certification">
-              <h3>XXX | PremiumAgentCamp</h3>
+              <h3>FrontEnd Development | FCC </h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pour créer de puissantes applications à page unique (SPA) avec
+                React et Redux.
               </p>
             </div>
 
             <div className="certifications__certification">
-              <h3>XXX | PremiumAgentCamp</h3>
+              <h3>JavaScript Algorithms and Data Structures | FC</h3>
 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              <p>JavaScript Algorithms and Data Structures | FC</p>
             </div>
 
             <div className="certifications__certification">
-              <h3>XXX | PremiumAgentCamp</h3>
+              <h3>JavaScript Algorithms and Data Structures | FC</h3>
 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              <p>JavaScript Algorithms and Data Structures | FC</p>
             </div>
 
             <div className="certifications__certification">
-              <h3>XXX | PremiumAgentCamp</h3>
+              <h3>Responsive Web Design | FCC</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Pour développer des compétences d’intégrateur web, d'interfaces
+                utilisateurs d'un site ou d'une application, de manière réactive
+                et adaptative.
               </p>
             </div>
           </div>
@@ -202,47 +208,57 @@ export default function App() {
           <h2>PROJETS RÉCENTS</h2>
           <div className="projects__gird">
             <div className="projects__project">
-              <h3>Exploit multi-plateforme Log4j</h3>
+              <h3>Blog personnel</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Un
-                clone d’une mission 007 Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor i
+                J’ai créé ce blog car j’ai décidé de créer du contenu pour
+                partager mon univers et ma série en cours.{" "}
+                <a href="https://blog-sairussdev.netlify.app" target="_blank">
+                  blog-sairussdev.netlify.app
+                </a>
+                .
               </p>
+
+              <div className="tech-stack">
+                Stack: AstroJS, React, TypeScript
+              </div>
             </div>
 
             <div className="projects__project">
-              <h3>Exploit multi-plateforme Log4j</h3>
+              <h3>Caabi-Ji</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Un
-                clone d’une mission 007 Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor i
+                Une application de recherche d’emplois remote, cette idée m’est
+                venu à l’esprit en réalisant les défis sur Twitter.
               </p>
+
+              <div className="tech-stack">Stack: React, TypeScript</div>
             </div>
 
             <div className="projects__project">
-              <h3>Exploit multi-plateforme Log4j</h3>
+              <h3>Markdown editor-manager</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Un
-                clone d’une mission 007 Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor i
+                Ce projet me sers personnellement pour la création d’articles,
+                pour me permettre de gérer, push et build mes articles.
+                Application Desktop.
               </p>
+
+              <div className="tech-stack">
+                Stack: Electron, React, Remark, TS
+              </div>
             </div>
 
             <div className="projects__project">
-              <h3>Exploit multi-plateforme Log4j</h3>
+              <h3>Chat Application</h3>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Un
-                clone d’une mission 007 Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor i
+                Application de chat avec une API Rest, Web sockets et statut
+                utilisateur en ligne, mise en place de l'authentification
+                utilisateur avec tokens.
               </p>
+
+              <div className="tech-stack">Stack: React, sockets, API Rest</div>
             </div>
           </div>
         </div>

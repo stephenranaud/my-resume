@@ -19,8 +19,8 @@
 
 .header-main {
   background-color: var(--dark-color-accent);
-  height: 210px;
-  clip-path: polygon(100% 0, 100% 66%, 17% 100%, 0 67%, 0 0);
+  height: 320px;
+  clip-path: polygon(100% 0, 100% 66%, 37% 100%, 0 67%, 0 0);
   padding: 1rem;
 }
 
@@ -40,6 +40,15 @@
   gap: 1rem;
   align-items: center;
   color: var(--white);
+}
+
+.contact__icon {
+  flex-shrink: 0;
+}
+
+.contact__link {
+  flex: 1;
+  line-height: 1.4;
 }
 
 .contacts__contact a {
