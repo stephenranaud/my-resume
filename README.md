@@ -6,8 +6,8 @@
 
 This project was realized with the bundler parcel
 
-development: yarn start
-deploy to the server: yarn build
+- development: yarn start
+- deploy to the server: yarn build
 
 ## Licence 
 
