@@ -1,6 +1,6 @@
 import "./CVPDF.css";
 
-import iconPDF from "../images/CV2.png";
+import iconPDF from "../images/cv2.png";
 import pdfUrlDemo from "../images/CV-demo.pdf";
 import pdfUrl from "../images/CV-SAIZONOU-OGOULA-Stephen.pdf";
 
