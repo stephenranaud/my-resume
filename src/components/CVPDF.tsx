@@ -1,8 +1,8 @@
 import "./CVPDF.css";
 
-import iconPDF from "/src/images/CV2.png";
-import pdfUrlDemo from "/src/images/CV-demo.pdf";
-import pdfUrl from "/src/images/CV-SAIZONOU-OGOULA-Stephen.pdf";
+import iconPDF from "../images/CV2.png";
+import pdfUrlDemo from "../images/CV-demo.pdf";
+import pdfUrl from "../images/CV-SAIZONOU-OGOULA-Stephen.pdf";
 
 export default function CVPDF(): JSX.Element {
   const openNewWindow = () => {
