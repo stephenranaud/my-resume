@@ -78,7 +78,7 @@ export default function Aside(): JSX.Element {
               </li>
               <li>Tests</li>
               <li>Base de données relationnelle</li>
-              <li>APIT Rest</li>
+              <li>APT Rest</li>
               <li>Docker</li>
               <li>Cadre Frotend: Angular, React</li>
               <li>Cadre Backend: SymfonyM ExpressJS, AdonisJS</li>
