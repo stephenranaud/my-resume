@@ -219,7 +219,7 @@ Express, des microservices.</p>
               <h3>Blog personnel</h3>
 
               <p>
-                J’ai créé ce blog car j’ai décidé de créer du contenu pour
+                J’ai initié ce blog car j’ai décidé de créer du contenu pour
                 partager mon univers et ma série en cours.{" "}
                 <a href="https://blog-sairussdev.netlify.app" target="_blank">
                   blog-sairussdev.netlify.app
@@ -237,7 +237,7 @@ Express, des microservices.</p>
 
               <p>
                 Une application de recherche d’emplois remote, cette idée m’est
-                venu à l’esprit en réalisant les défis sur Twitter.
+                venue à l’esprit en réalisant les défis sur Twitter.
               </p>
 
               <div className="tech-stack">Stack: React, TypeScript</div>
@@ -247,7 +247,7 @@ Express, des microservices.</p>
               <h3>Markdown editor-manager</h3>
 
               <p>
-                Ce projet me sers personnellement pour la création d’articles,
+                Ce projet me sert personnellement pour la création d’articles,
                 pour me permettre de gérer, push et build mes articles.
                 Application Desktop.
               </p>
