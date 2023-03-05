@@ -41,9 +41,9 @@ export default function Aside(): JSX.Element {
           <h3 className="txt-accent">Actualite</h3>
 
           <p>
-            Actuellement, je travaille sur une série &grave;
-            <span className="txt-accent">Road To developer</span>&grave; le but
-            est de présenter des des projets concrets, de passer des
+            Actuellement, je travaille sur une série{" "}
+            <span className="txt-accent">&quot;Road To developer&quot;</span> le
+            but est de présenter des des projets concrets, de passer des
             certifications FreeCodeCamp, faire des interviews et le processus
             d'un développeur mais aussi de me promouvoir.
             <a
