@@ -39,12 +39,13 @@ export default function Aside(): JSX.Element {
       <ul className="container">
         <li>
           <h3 className="txt-accent">Actualite</h3>
+
           <p>
             Actuellement, je travaille sur une série{" "}
-            <span className="txt-accent">`Road To developer`</span> le but est
-            de présenter des projets concrets, passer des certifications
-            PremiumAgentCamp, faire des interviews et le processus d'un Agent
-            secret mais aussi de me promouvoir.{" "}
+            <span className="txt-accent">&grave;Road To developer&grave;</span>{" "}
+            le but est de présenter des des projets concrets, de passer des
+            certifications FreeCodeCamp, faire des interviews et le processus
+            d'un développeur mais aussi de me promouvoir.
             <a
               href="https://my-fcc-summary-sairussdev.netlify.app/"
               target="_blank"

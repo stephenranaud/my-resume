@@ -56,7 +56,8 @@ export default function App() {
                 électrotechnique. J'ai été sollicité par la directrice
                 administrative Mme Cécile Gery LELOUP à l'occasion de la refonte
                 du site web de Transair. Bien que ce ne fut pas un stage, cela
-                m’a aidé à mieux appréhender les enjeux du monde professionnel.
+                m&apos;a aidé à mieux appréhender les enjeux du monde
+                professionnel.
               </p>
             </div>
 
@@ -82,30 +83,30 @@ export default function App() {
             <div className="certifications__certification">
               <h3>JavaScript Algorithms and Data Structures | FC</h3>
 
-              <p>La résolution de problèmes 
- est probablement l’une des 
- compétences les plus 
- importantes, cette certification 
- nous apprend cela avec JS.</p>
+              <p>
+                La résolution de problèmes est probablement l&apos;une des
+                compétences les plus importantes, cette certification nous
+                apprend cela avec JS.
+              </p>
             </div>
 
             <div className="certifications__certification">
-              <h3>BackEnd Development 
-and APIs | FCC</h3>
+              <h3>BackEnd Development and APIs | FCC</h3>
 
-              <p>Pour créer des applications 
-back-end avec Node.js. Créer également 
-des applications Web avec le framework 
-Express, des microservices.</p>
+              <p>
+                Pour créer des applications back-end avec Node.js. Créer
+                également des applications Web avec le framework Express, des
+                microservices.
+              </p>
             </div>
 
             <div className="certifications__certification">
               <h3>Responsive Web Design | FCC</h3>
 
               <p>
-                Pour développer des compétences d’intégrateur web, d'interfaces
-                utilisateurs d'un site ou d'une application, de manière réactive
-                et adaptative.
+                Pour développer des compétences d&apos;intégrateur web,
+                d'interfaces utilisateurs d'un site ou d'une application, de
+                manière réactive et adaptative.
               </p>
             </div>
           </div>
@@ -219,8 +220,8 @@ Express, des microservices.</p>
               <h3>Blog personnel</h3>
 
               <p>
-                J’ai initié ce blog car j’ai décidé de créer du contenu pour
-                partager mon univers et ma série en cours.{" "}
+                J&apos;ai initié ce blog car j&apos;ai décidé de créer du
+                contenu pour partager mon univers et ma série en cours.{" "}
                 <a href="https://blog-sairussdev.netlify.app" target="_blank">
                   blog-sairussdev.netlify.app
                 </a>
@@ -236,8 +237,9 @@ Express, des microservices.</p>
               <h3>Caabi-Ji</h3>
 
               <p>
-                Une application de recherche d’emplois remote, cette idée m’est
-                venue à l’esprit en réalisant les défis sur Twitter.
+                Une application de recherche d&apos;emplois remote, cette idée
+                m&apos;est venue à l&apos;esprit en réalisant les défis sur
+                Twitter.
               </p>
 
               <div className="tech-stack">Stack: React, TypeScript</div>
@@ -247,9 +249,9 @@ Express, des microservices.</p>
               <h3>Markdown editor-manager</h3>
 
               <p>
-                Ce projet me sert personnellement pour la création d’articles,
-                pour me permettre de gérer, push et build mes articles.
-                Application Desktop.
+                Ce projet me sert personnellement pour la création
+                d&apos;articles, pour me permettre de gérer, push et build mes
+                articles. Application Desktop.
               </p>
 
               <div className="tech-stack">
